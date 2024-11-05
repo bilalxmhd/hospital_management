@@ -1,0 +1,17 @@
+# Python environment files
+.env                 # Exclude environment variable files
+.venv                # Exclude virtual environment directories (for example, if you use venv)
+env/                 # Exclude 'env' directory (common for virtual environments)
+
+# Temporary files
+*.pyc                # Exclude compiled Python files
+__pycache__/        # Exclude Python cache directories
+*.sqlite3           # Exclude SQLite database files (if you're using SQLite for development)
+
+# IDE-specific files
+.vscode/            # Exclude Visual Studio Code settings
+.idea/              # Exclude JetBrains IDE settings
+
+# Other temporary files
+.DS_Store           # Exclude macOS Finder files
+Thumbs.db           # Exclude Windows thumbnail cache files

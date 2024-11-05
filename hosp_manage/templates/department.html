@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+appointment
+{% endblock %}
+
+{% block content %}
+<h1 class="text-center mt-4 mb-2 my-3 ">OUR DEPARTMENTS</h1>
+{% for d in dept %}
+<div class="container">
+    <div class="col-md-6 mb-4 ">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{d.dep_name}}</h5>
+          <p class="card-text">{{d.dep_desc}}</p>
+          <a href="#" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+    </div>  
+</div>
+</div>
+
+{% endfor %}
+{% endblock %}
